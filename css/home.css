@@ -1,0 +1,431 @@
+/* Header Background */
+
+header {
+  background-image: url("../images/page-top-bg/6.jpg");
+}
+
+/* Start Features */
+
+.features {
+  padding: 100px 0;
+}
+
+.features .post {
+  height: 415px;
+}
+
+.features .post {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: #fff;
+  position: relative;
+}
+
+.features .post::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.features .post:first-of-type {
+  background-image: url("../images/features/1.jpg");
+}
+
+.features .post:nth-of-type(2) {
+  background-image: url("../images/features/2.jpg");
+}
+
+.features .post:nth-of-type(3) {
+  background-image: url("../images/features/3.jpg");
+}
+
+.features .post:last-of-type {
+  background-image: url("../images/features/4.jpg");
+}
+
+.features .post > span {
+  position: relative;
+  z-index: 2;
+  top: 25px;
+  left: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #fff;
+  padding: 6px 25px;
+}
+
+.features .post:nth-last-of-type(even) > span {
+  background-color: #ff205f;
+}
+
+.features .post:nth-last-of-type(odd) > span {
+  background-color: #694eae;
+}
+
+.features .post .post-content {
+  position: absolute;
+  z-index: 2;
+  bottom: 20px;
+  padding: 0 15px;
+}
+
+.features .post .post-content p {
+  margin: 20px 0;
+  line-height: 1.8;
+  font-size: 15px;
+}
+
+.features .post .post-content span {
+  color: #aeaeae;
+  font-size: 13px;
+}
+
+/* End Features */
+
+/* Start Recent Games */
+
+.recent-games {
+  padding: 100px 0 80px;
+  background-color: #eef2f6;
+  background-image: url(../images/recent-game-bg.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.recent-games .container > span {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  color: #fff;
+  padding: 6px 25px;
+  background-color: #ff205f;
+}
+
+.recent-games .container > h2 {
+  margin: 15px auto 80px;
+}
+
+.recent-games .game {
+  text-align: left;
+  border: 1px solid #e0e0e0;
+  max-width: 400px;
+  margin: auto;
+  position: relative;
+  transition: 0.3s;
+}
+
+.recent-games .game:hover {
+  box-shadow: 0px 0px 15px 0px #777;
+}
+
+.recent-games .game > span {
+  position: absolute;
+  z-index: 2;
+  top: 15px;
+  left: 30px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #fff;
+  padding: 6px 15px;
+}
+
+.recent-games .game .background {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 230px;
+}
+
+.recent-games .game-1 .background {
+  background-image: url("../images/recent-game/big.jpg");
+}
+
+.recent-games .game-1 .game > span {
+  background-color: #40abf5;
+}
+
+.recent-games .game-2 .game .background {
+  background-image: url("../images/recent-game/2.jpg");
+}
+
+.recent-games .game-2 .game > span {
+  background-color: #ff205f;
+}
+
+.recent-games .game-3 .game .background {
+  background-image: url("../images/recent-game/3.jpg");
+}
+
+.recent-games .game-3 .game > span {
+  background-color: #4eae60;
+}
+
+.recent-games .game-4 .background {
+  background-image: url("../images/recent-game/4.jpg");
+}
+
+.recent-games .game-4 .game > span {
+  background-color: #694eae;
+}
+
+.recent-games .game .game-content {
+  background-color: #fff;
+  padding: 30px 20px 20px;
+}
+
+.recent-games .game .game-content h5 {
+  color: #333;
+}
+
+.recent-games .game .game-content p {
+  margin: 20px 0;
+  color: #999;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.recent-games .game .game-content span {
+  color: #737373;
+  font-size: 12px;
+}
+
+.recent-games .game .like {
+  position: absolute;
+  bottom: 17px;
+  right: 20px;
+}
+
+.recent-games .game .like i {
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.recent-games .game .like i:hover {
+  color: #ff20ae;
+}
+
+/* End Recent Games */
+
+/* Start Tournaments */
+
+.tournaments {
+  padding: 100px 0;
+  background-image: url("../images/pattern.png");
+}
+
+.tournaments .tournament {
+  background-color: #252525;
+  color: #fff;
+  padding: 50px 20px 20px;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .tournaments .tournament-1,
+  .tournaments .tournament-2 {
+    max-width: 450px;
+    margin: auto;
+  }
+}
+
+.tournaments .tournament > span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #222;
+  background-color: #ffb320;
+  font-weight: bold;
+  padding: 10px 15px;
+  font-size: 14px;
+}
+
+.tournaments .tournament .tournament-content .info h4 {
+  margin: 0;
+  color: #ffb320;
+}
+
+.tournaments .tournament .tournament-content .info .body {
+  margin: 15px 0;
+}
+
+.tournaments .tournament .tournament-content .info .body p {
+  margin: 3px 0;
+  font-size: 12px;
+}
+
+.tournaments .tournament .tournament-content .info .body p span {
+  color: #888;
+}
+
+.tournaments .tournament .tournament-content .info .footer p {
+  margin: 0;
+  color: #888;
+  font-size: 12px;
+}
+
+.tournaments .tournament .tournament-content .info .footer p span {
+  color: #ffb320;
+  font-weight: bold;
+}
+
+/* End Tournaments */
+
+/* Start Reviews */
+
+.reviews {
+  padding: 100px 0;
+  background-image: url("../images/review-bg.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  text-align: center;
+}
+
+.reviews span.name {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  color: #fff;
+  padding: 6px 25px;
+  background-color: #ff205f;
+}
+
+.reviews h2 {
+  margin: 15px auto 80px;
+}
+
+.reviews .review .info {
+  position: relative;
+}
+
+.reviews .review span {
+  display: inline-block;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 50px;
+  position: absolute;
+  top: -25px;
+  left: 25px;
+}
+
+.reviews .review:first-of-type span {
+  background-color: #ffb320;
+}
+
+.reviews .review:nth-of-type(2) span {
+  background-color: #694eae;
+}
+
+.reviews .review:nth-of-type(3) span {
+  background-color: #4eae60;
+}
+
+.reviews .review:last-of-type span {
+  background-color: #ff20ae;
+}
+
+.reviews .review img {
+  max-width: 100%;
+}
+
+.reviews .review h4 {
+  margin: 30px auto 25px;
+}
+
+.reviews .review p {
+  color: #878787;
+  line-height: 1.8;
+  margin: 0;
+  font-size: 14px;
+}
+
+@media (max-width: 767px) {
+  .reviews .review span {
+    left: 50px;
+  }
+}
+
+@media (max-width: 992px) {
+  .reviews {
+    background: none;
+  }
+}
+
+/* End Reviews */
+
+/* Start Pricing */
+
+.pricing {
+  padding: 100px 0;
+  background: #eef2f6;
+}
+
+.pricing .card {
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing hr {
+  margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+}
+
+.pricing .card-price {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.pricing .card-price .period {
+  font-size: 0.8rem;
+}
+
+.pricing ul li {
+  margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+  opacity: 0.7;
+}
+
+.pricing .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.7;
+  transition: all 0.2s;
+}
+
+@media (min-width: 992px) {
+  .pricing .card:hover {
+    margin-top: -0.25rem;
+    margin-bottom: 0.25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+  .pricing .card:hover .btn {
+    opacity: 1;
+  }
+}
+
+/* End Pricing */

@@ -1,0 +1,390 @@
+/* Header Background */
+
+header {
+  background-image: url("../images/page-top-bg/7.jpg");
+}
+
+/*Start Game Page */
+
+.game-page {
+  padding: 100px 0;
+}
+
+.recent-games {
+  max-width: 344px;
+  margin: auto;
+  position: relative;
+  transition: 0.3s;
+}
+
+.recent-games:hover {
+  box-shadow: 0px 0px 15px 0px #777;
+}
+
+.recent-games:first-of-type,
+.recent-games:nth-of-type(2) {
+  margin-top: 10px;
+}
+
+.recent-games .game-image img {
+  max-width: 100%;
+}
+
+.recent-games .game-content {
+  padding: 20px 22px;
+  border: 1px solid #e0e0e0;
+  border-top: none;
+}
+
+.recent-games .game-content h5 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.recent-games .game-content p {
+  line-height: 1.7;
+  font-size: 14px;
+  color: #555;
+}
+
+.recent-games .game-content .comment {
+  font-size: 12px;
+  color: #888;
+}
+
+.recent-games .icons {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 70px;
+}
+.icons img {
+  width: 25px;
+  padding-right: 5px;
+}
+.star-icon {
+  height: 35px;
+  width: 35px;
+  float: left;
+  display: block;
+  padding: 6px 8px 0;
+}
+.heart-icon {
+  height: 35px;
+  width: 35px;
+  float: left;
+  display: block;
+  padding: 6px 8px 0;
+}
+
+.recent-games .icons .star-icon {
+  background: rgb(255, 179, 32);
+}
+
+.recent-games .icons .heart-icon {
+  background: rgb(255, 32, 95);
+}
+.racing {
+  display: inline-block;
+  text-align: center;
+  position: absolute;
+  top: 25px;
+  left: 15px;
+  z-index: 2;
+  font-size: 12px;
+  font-weight: 500;
+  color: #fff;
+  padding: 6px 25px;
+}
+
+.pages-num {
+  padding-top: 50px;
+}
+.pages-num a,
+.pages-num span {
+  width: 33px;
+  height: 33px;
+  font-size: 14px;
+  font-weight: 500;
+  padding-top: 7px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 50%;
+  color: rgb(19, 19, 19);
+  margin-right: 10px;
+}
+.pages-num .active {
+  background: rgb(255, 179, 32);
+}
+
+.pages-num.sp-style-2 a,
+.pages-num.sp-style-2 span {
+  background: rgb(229, 229, 229);
+}
+
+.pages-num.sp-style-2 .active {
+  background: rgb(255, 179, 32);
+}
+
+.sidebar {
+  max-width: 430px;
+  margin: auto;
+}
+
+.second-side {
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+.second-side img {
+  width: 100px;
+}
+.search {
+  position: relative;
+}
+.search input {
+  width: 100%;
+  height: 41px;
+  border: 1px solid rgb(214, 222, 231);
+  padding-left: 22px;
+  padding-right: 45px;
+  font-size: 14px;
+}
+
+.search input::placeholder {
+  transition: 0.3s;
+}
+
+.search input:focus {
+  outline: 0;
+}
+
+.search input:focus::placeholder {
+  color: #fff;
+}
+
+.search i {
+  position: absolute;
+  right: 0;
+  top: 12px;
+  height: 100%;
+  background: none;
+  border: none;
+  padding-right: 15px;
+  color: rgb(135, 135, 135);
+}
+
+.post-title {
+  margin-bottom: 40px;
+}
+.second-side .latest-post .latest-post-item .latest-post-content p,
+.second-side .top-comment .top-comments-item .top-comments-content p {
+  color: #454545;
+}
+.second-side
+  .latest-post
+  .latest-post-item
+  .latest-post-content
+  .latest-post-author {
+  color: #999;
+}
+
+.latest-post .latest-post-item {
+  margin-bottom: 23px;
+  overflow: hidden;
+}
+
+.latest-post .latest-post-item .latest-post-image {
+  width: 97px;
+  height: 97px;
+  float: left;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.latest-post .latest-post-item .latest-post-content {
+  padding-left: 110px;
+}
+
+.latest-post .latest-post-item .latest-post-content .latest-post-date {
+  font-size: 12px;
+  color: #ff8800;
+  margin-bottom: 8px;
+}
+
+.latest-post .latest-post-item .latest-post-content p {
+  font-size: 12px;
+  margin-bottom: 5px;
+  color: rgb(211, 211, 211);
+}
+
+.latest-post .latest-post-item .latest-post-content .latest-post-author {
+  font-size: 12px;
+  color: rgb(211, 211, 211);
+}
+
+.top-comments {
+  overflow: hidden;
+}
+
+.top-comments .top-comments-item {
+  margin-bottom: 23px;
+  overflow: hidden;
+}
+
+.top-comments .top-comments-item .top-comments-image img {
+  width: 63px;
+  height: 63px;
+  border-radius: 50%;
+  float: left;
+}
+
+.top-comments .top-comments-item .top-comments-content {
+  padding-left: 100px;
+}
+
+.top-comments .top-comments-item .top-comments-content p {
+  font-size: 12px;
+  color: #999;
+  margin-bottom: 5px;
+}
+
+.top-comments .top-comments-item .top-comments-content p a {
+  color: rgb(255, 32, 95);
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.top-comments .top-comments-item .top-comments-content p span {
+  color: #444;
+}
+
+.top-comments .top-comments-item .top-comments-content .top-comments-date {
+  font-size: 12px;
+  color: #ff8800;
+}
+
+.features {
+  height: 415px;
+  position: relative;
+  background-image: url("../images/features/3.jpg");
+  background-size: cover;
+  transition: 0.3s;
+}
+
+.features::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgb(0, 0, 0);
+  opacity: 0.75;
+  transition: 0.3s;
+}
+
+.features:hover {
+  box-shadow: 0px 0px 15px 0px #000;
+}
+
+.new {
+  background-color: rgb(255, 32, 95);
+  display: inline-block;
+  text-align: center;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #fff;
+  padding: 6px 25px;
+  z-index: 2;
+}
+
+.features img {
+  max-width: 100%;
+}
+.features .fi-content {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  padding: 0 26px 24px;
+  z-index: 2;
+}
+
+.features .fi-content h5 {
+  margin-bottom: 18px;
+}
+
+.features .fi-content a {
+  color: #eee;
+}
+
+.features .fi-content p {
+  color: #bbb;
+}
+
+.features .fi-content .fi-comment {
+  font-size: 12px;
+  opacity: 0.54;
+}
+
+.review {
+  border: 1px solid #e0e0e0;
+  transition: 0.3s;
+}
+
+.review:hover {
+  box-shadow: 0px 0px 15px 0px #999;
+}
+
+.review .review-cover {
+  position: relative;
+  margin-bottom: 30px;
+  height: 345px;
+  background-image: url("../images/review/1.jpg");
+}
+
+.review .review-cover img {
+  max-width: 100%;
+}
+
+.review .review-cover .score {
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  top: -27px;
+  left: 26px;
+  padding-top: 15px;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.review .review-cover .score.yellow {
+  background: rgb(255, 179, 32);
+}
+
+.review .review-text {
+  text-align: center;
+}
+
+.review .review-text h5 {
+  margin-bottom: 20px;
+}
+
+.review .review-text p {
+  color: rgb(135, 135, 135);
+  text-align: center;
+  font-size: 14px;
+  line-height: 2;
+  box-sizing: border-box;
+  display: block;
+}
+
+/*End Game Page*/

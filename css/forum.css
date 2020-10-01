@@ -1,0 +1,127 @@
+/* Header Background */
+
+header {
+  background-image: url("../images/page-top-bg/8.jpg");
+}
+
+/* Start Forum */
+
+.forum {
+  padding: 50px 0;
+  background-color: #eef2f6;
+}
+
+.forum h2 {
+  margin-bottom: 30px;
+}
+
+.forum h2 span {
+  color: #444;
+}
+
+.forum .forum-section {
+  background-color: #1f2225;
+  color: #fff;
+  border: 1px solid #999;
+  padding: 30px;
+  border-radius: 4px;
+  position: relative;
+  margin-bottom: 30px;
+  transition: 0.3s;
+}
+
+.forum .forum-section:hover {
+  box-shadow: 0px 0px 25px 2px #000;
+}
+
+.forum .forum-section .author .author-img {
+  width: 63px;
+  height: 63px;
+  margin-right: 20px;
+}
+
+.forum .forum-section .author .author-info .name {
+  color: #ff20ae;
+  margin-right: 10px;
+}
+
+.forum .forum-section .author .author-info .date {
+  display: block;
+  color: #666;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.forum .forum-section .content {
+  /* Top Right bottom Left */
+  margin: 30px 10px 30px 85px;
+}
+
+.forum .forum-section .content h5 {
+  color: #ffb320;
+}
+
+.forum .forum-section .content p {
+  margin: 15px 0 0;
+  line-height: 1.9;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+.forum .forum-section .like {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  font-size: 17px;
+}
+
+.forum .forum-section .like i {
+  cursor: pointer;
+  transition: 0.3s;
+  margin-right: 5px;
+}
+
+.forum .forum-section .like i:hover {
+  color: #ff20ae;
+}
+
+.forum .login {
+  margin-top: 50px;
+}
+
+.forum .login h5 {
+  margin: 0;
+}
+
+.forum .login .links button {
+  display: inline-block;
+  background-color: #ffb320;
+  color: #000;
+  padding: 5px 20px;
+  border-radius: 30px;
+  min-width: 90px;
+  text-align: center;
+  border: 0;
+}
+
+.forum .login .links button:hover {
+  opacity: 0.8;
+}
+
+.forum .login .links button:focus {
+  outline: 0;
+}
+
+.forum .pagination {
+  margin-top: 80px;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .forum .forum-section .content {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+/* End Forum */

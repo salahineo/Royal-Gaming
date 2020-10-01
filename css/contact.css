@@ -1,0 +1,151 @@
+/* Header Background */
+
+header {
+  background-image: url('../images/page-top-bg/9.jpg');
+}
+
+/* Start Contact */
+
+.contact {
+  padding: 100px;
+}
+
+.contact .contact-info {
+  margin-bottom: 100px;
+}
+
+.contact .contact-info .header h3 {
+  margin: 0;
+}
+
+.contact .contact-info .header p {
+  margin: 30px 0 0;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #555;
+  line-height: 1.8;
+}
+
+.contact .contact-info .body {
+  margin: 50px 0;
+}
+
+.contact .contact-info .body .body-info {
+  margin-bottom: 20px;
+}
+
+.contact .contact-info .body .body-info i {
+  margin-right: 20px;
+  width: 42px;
+  height: 42px;
+  text-align: center;
+  padding: 12px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  font-size: 18px;
+  color: #ff8800;
+}
+
+.contact .contact-info .body .body-info:hover i {
+  background-color: #ff8800;
+  color: #f0f0f0;
+}
+
+.contact .contact-info .body .body-info p {
+  margin: 0;
+  color: #555;
+  letter-spacing: 1px;
+}
+
+.contact .contact-info .footer a {
+  color: #444;
+  padding: 5px 10px;
+  font-size: 18px;
+}
+
+.contact .contact-info .footer a:hover i {
+  color: #ff8800;
+}
+
+.contact .contact-message form {
+  margin-top: 30px;
+}
+
+.contact .contact-message form input,
+.contact .contact-message form textarea {
+  padding-right: 25px;
+}
+
+.contact .contact-message form textarea {
+  resize: none;
+  height: 206px;
+}
+
+.contact .contact-message form .form-group {
+  position: relative;
+}
+
+.contact .contact-message form .required::after {
+  content: '*';
+  color: #ff5151;
+  position: absolute;
+  top: 12px;
+  right: 15px;
+  font-size: 14px;
+}
+
+.contact .contact-message form input::placeholder,
+.contact .contact-message form textarea::placeholder {
+  font-weight: 100;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.contact .contact-message form input:focus::placeholder,
+.contact .contact-message form textarea:focus::placeholder {
+  color: #fff;
+}
+
+.contact .contact-message form input:focus,
+.contact .contact-message form textarea:focus {
+  outline: 0;
+  border-color: #ffcd6a;
+  box-shadow: 0 0 0 0.2rem rgba(255, 179, 32, 0.25);
+}
+
+.contact .contact-message form button {
+  border: 0;
+  padding: 10px 20px;
+  background-color: #ffb320;
+  border-radius: 30px;
+  transition: 0.3s;
+  margin-top: 8px;
+}
+
+.contact .contact-message form button:hover {
+  opacity: 0.8;
+}
+
+.contact .contact-message form button:focus {
+  outline: 0;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .contact .contact-message form textarea {
+    height: 147px;
+  }
+}
+
+.contact .form-alert {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  z-index: 999;
+  display: none;
+}
+
+.contact .form-alert .alert strong {
+  margin-right: 10px;
+}
+
+/* End Contact */
