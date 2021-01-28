@@ -707,7 +707,7 @@ footer .copyright p {
   font-size: 15px;
 }
 
-footer .copyright p > span {
+footer .copyright p > span:not(#footer-copyright-year) {
   color: #ffb320;
 }
 

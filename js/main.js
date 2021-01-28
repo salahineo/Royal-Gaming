@@ -71,4 +71,9 @@ $(function () {
   /*                                Animate On Scroll Plugin Trigger                                */
   /* ---------------------------------------------------------------------------------------------- */
   AOS.init({ duration: 1e3, once: !0 });
+
+  // New date Object
+  let currentDate = new Date();
+  // Get Copyright Year Span
+  document.getElementById("footer-copyright-year").innerHTML = String(currentDate.getFullYear());
 });
