@@ -1,7 +1,7 @@
 <h2 align="center">Royal Gaming</h2>
 
 <p align="center">
-  <img src="Mockup.jpg" alt="Responsive Mockup">
+  <img src="mockup.jpg" alt="Responsive Mockup">
 </p>
 
 ### 🎯 Goal
